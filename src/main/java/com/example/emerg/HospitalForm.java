@@ -11,20 +11,20 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class HospitalForm extends AppCompatActivity {
-    LocationManager locationManager;
-    Geocoder geocoder;
+    private LocationManager locationManager;
+    private Geocoder geocoder;
     static GetLocation getLocation;
-    int PERMISSION_ID = 44;
+    private int PERMISSION_ID = 44;
 
-    EditText firstName;
-    EditText lastName;
-    EditText contact;
-    EditText email;
-    EditText nextOfKinFirstName;
-    EditText nextOfKinLastName;
-    EditText nextOfKinContact;
-    EditText relationship;
-    Button sendInfo;
+    private EditText firstName;
+    private EditText lastName;
+    private EditText contact;
+    private EditText email;
+    private EditText nextOfKinFirstName;
+    private EditText nextOfKinLastName;
+    private EditText nextOfKinContact;
+    private EditText relationship;
+    private Button sendInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

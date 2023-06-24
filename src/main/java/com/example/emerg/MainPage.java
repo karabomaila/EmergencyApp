@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainPage extends AppCompatActivity {
-    Button hospital;
-    Button police;
-    Button fireBrigade;
+    private Button hospital;
+    private Button police;
+    private Button fireBrigade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

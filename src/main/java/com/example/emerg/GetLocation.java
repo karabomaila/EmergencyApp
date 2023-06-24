@@ -90,7 +90,7 @@ public class GetLocation {
 
                         if (location == null) {
                             requestNewLocationData();
-                        } else { ;
+                        } else { 
                             Latitude = location.getLatitude();
                             Longitude = location.getLongitude();
                         }

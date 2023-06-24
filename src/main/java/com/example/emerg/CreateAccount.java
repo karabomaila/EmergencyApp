@@ -12,12 +12,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CreateAccount extends AppCompatActivity {
-    EditText username;
-    EditText idNumber;
-    EditText passoword;
-    EditText confirmPassoword;
+    private EditText username;
+    private EditText idNumber;
+    private EditText passoword;
+    private EditText confirmPassoword;
 
-    Button submit;
+    private Button submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

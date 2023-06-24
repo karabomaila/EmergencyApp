@@ -23,10 +23,10 @@ import java.util.List;
 import java.util.Locale;
 
 public class FireBrigade extends AppCompatActivity {
-    LocationManager locationManager;
-    Geocoder geocoder;
-    static GetLocation getLocation;
-    int PERMISSION_ID = 44;
+    private LocationManager locationManager;
+    private Geocoder geocoder;
+    private static GetLocation getLocation;
+    private int PERMISSION_ID = 44;
 
     private Button locationAccess;
     private Button sendLocation;

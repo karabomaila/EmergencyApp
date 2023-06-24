@@ -23,15 +23,13 @@ import java.util.List;
 import java.util.Locale;
 
 public class HospitalLocation extends AppCompatActivity {
-    LocationManager locationManager;
-    Geocoder geocoder;
-    GetLocation getLocation;
-    int PERMISSION_ID = 44;
-
-    Button locationAccess;
-    Button sendLocation;
-    Button sendLocation2;
-    EditText typeLocation;
+    private Geocoder geocoder;
+    private GetLocation getLocation;
+    private int PERMISSION_ID = 44;
+    private Button locationAccess;
+    private Button sendLocation;
+    private Button sendLocation2;
+    private EditText typeLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

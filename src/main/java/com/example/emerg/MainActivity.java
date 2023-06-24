@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int i =0;
+    private int i = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,8 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //Toast.makeText(this, "Example of Text", Toast.LENGTH_LONG).show();
-                i =0;
+                i = 0;
             }
         });
 
